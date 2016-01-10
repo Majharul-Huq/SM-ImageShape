@@ -12,7 +12,12 @@
 		C5986E3D1C42BA6300FF29BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5986E3C1C42BA6300FF29BE /* ViewController.m */; };
 		C5986E401C42BA6300FF29BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5986E3E1C42BA6300FF29BE /* Main.storyboard */; };
 		C5986E421C42BA6300FF29BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5986E411C42BA6300FF29BE /* Assets.xcassets */; };
-		C5986E451C42BA6300FF29BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5986E431C42BA6300FF29BE /* LaunchScreen.storyboard */; };
+		C5986E4D1C42BAE200FF29BE /* test-background.png in Resources */ = {isa = PBXBuildFile; fileRef = C5986E4C1C42BAE200FF29BE /* test-background.png */; };
+		C5986E4F1C42BB0800FF29BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5986E4E1C42BB0800FF29BE /* Default-568h@2x.png */; };
+		C5986E581C42BC6900FF29BE /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5986E571C42BC6900FF29BE /* ShapeView.m */; };
+		C5986E5A1C42C1F700FF29BE /* shape1.json in Resources */ = {isa = PBXBuildFile; fileRef = C5986E591C42C1F700FF29BE /* shape1.json */; };
+		C5986E601C42C38500FF29BE /* shape2.json in Resources */ = {isa = PBXBuildFile; fileRef = C5986E5B1C42C38500FF29BE /* shape2.json */; };
+		C5986E611C42C38500FF29BE /* shape3.json in Resources */ = {isa = PBXBuildFile; fileRef = C5986E5C1C42C38500FF29BE /* shape3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +29,14 @@
 		C5986E3C1C42BA6300FF29BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5986E3F1C42BA6300FF29BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5986E411C42BA6300FF29BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5986E441C42BA6300FF29BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5986E461C42BA6300FF29BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5986E4C1C42BAE200FF29BE /* test-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-background.png"; sourceTree = "<group>"; };
+		C5986E4E1C42BB0800FF29BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5986E561C42BC6900FF29BE /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		C5986E571C42BC6900FF29BE /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+		C5986E591C42C1F700FF29BE /* shape1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shape1.json; sourceTree = "<group>"; };
+		C5986E5B1C42C38500FF29BE /* shape2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shape2.json; sourceTree = "<group>"; };
+		C5986E5C1C42C38500FF29BE /* shape3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shape3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +53,7 @@
 		C5986E291C42BA6300FF29BE = {
 			isa = PBXGroup;
 			children = (
+				C5986E4E1C42BB0800FF29BE /* Default-568h@2x.png */,
 				C5986E341C42BA6300FF29BE /* SM-ImageShape */,
 				C5986E331C42BA6300FF29BE /* Products */,
 			);
@@ -58,13 +70,13 @@
 		C5986E341C42BA6300FF29BE /* SM-ImageShape */ = {
 			isa = PBXGroup;
 			children = (
+				C5986E501C42BBA400FF29BE /* Library */,
 				C5986E381C42BA6300FF29BE /* AppDelegate.h */,
 				C5986E391C42BA6300FF29BE /* AppDelegate.m */,
 				C5986E3B1C42BA6300FF29BE /* ViewController.h */,
 				C5986E3C1C42BA6300FF29BE /* ViewController.m */,
 				C5986E3E1C42BA6300FF29BE /* Main.storyboard */,
 				C5986E411C42BA6300FF29BE /* Assets.xcassets */,
-				C5986E431C42BA6300FF29BE /* LaunchScreen.storyboard */,
 				C5986E461C42BA6300FF29BE /* Info.plist */,
 				C5986E351C42BA6300FF29BE /* Supporting Files */,
 			);
@@ -74,9 +86,22 @@
 		C5986E351C42BA6300FF29BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5986E591C42C1F700FF29BE /* shape1.json */,
+				C5986E5B1C42C38500FF29BE /* shape2.json */,
+				C5986E5C1C42C38500FF29BE /* shape3.json */,
+				C5986E4C1C42BAE200FF29BE /* test-background.png */,
 				C5986E361C42BA6300FF29BE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5986E501C42BBA400FF29BE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C5986E561C42BC6900FF29BE /* ShapeView.h */,
+				C5986E571C42BC6900FF29BE /* ShapeView.m */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +161,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5986E451C42BA6300FF29BE /* LaunchScreen.storyboard in Resources */,
+				C5986E611C42C38500FF29BE /* shape3.json in Resources */,
 				C5986E421C42BA6300FF29BE /* Assets.xcassets in Resources */,
+				C5986E4F1C42BB0800FF29BE /* Default-568h@2x.png in Resources */,
+				C5986E601C42C38500FF29BE /* shape2.json in Resources */,
 				C5986E401C42BA6300FF29BE /* Main.storyboard in Resources */,
+				C5986E4D1C42BAE200FF29BE /* test-background.png in Resources */,
+				C5986E5A1C42C1F700FF29BE /* shape1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +180,7 @@
 			files = (
 				C5986E3D1C42BA6300FF29BE /* ViewController.m in Sources */,
 				C5986E3A1C42BA6300FF29BE /* AppDelegate.m in Sources */,
+				C5986E581C42BC6900FF29BE /* ShapeView.m in Sources */,
 				C5986E371C42BA6300FF29BE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,14 +194,6 @@
 				C5986E3F1C42BA6300FF29BE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C5986E431C42BA6300FF29BE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5986E441C42BA6300FF29BE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +284,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SM-ImageShape/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sm.imageshape.SM-ImageShape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SM-ImageShape/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sm.imageshape.SM-ImageShape";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +322,7 @@
 				C5986E4B1C42BA6300FF29BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
